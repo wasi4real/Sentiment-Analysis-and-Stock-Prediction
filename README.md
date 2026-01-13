@@ -48,11 +48,3 @@ $$Attention(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 ### Key Findings
 * **Accuracy Paradox:** Logistic Regression achieves 54% accuracy by over-predicting the majority class, resulting in a low F1-score.
 * **DL Advantage:** The Multi-Modal Transformer provides a 193% improvement in F1-score over linear baselines, proving the necessity of non-linear attention mechanisms.
-
-## Repository Structure
-```text
-├── data/                   # Dataset placeholders
-├── notebooks/              # Jupyter Notebooks for training and EDA
-├── results/                # Confusion Matrices and ROC Curves
-├── src/                    # Model definitions and preprocessing scripts
-└── README.md               # Project overview
